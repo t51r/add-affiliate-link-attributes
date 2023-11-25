@@ -1,0 +1,15 @@
+{
+  "name": "add-affiliate-link-attributes",
+  "version": "1.0.0",
+  "description": "Post-build script to apply appropriate link attributes to affiliate links to protect your affiliate accounts.",
+  "main": "update-affiliate-links.mjs",
+  "scripts": {
+    "test": "node update-affiliate-links.mjs"
+  },
+  "author": "t51r",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "globby": "^14.0.0",
+    "jsdom": "^22.1.0"
+  }
+}
